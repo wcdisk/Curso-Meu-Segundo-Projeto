@@ -1,0 +1,128 @@
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "Montserrat", serif;
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contain-menu-link {
+    margin-top: 44px;
+    margin-left: 76px;
+
+}
+
+.menu-link {
+    margin-left: 23px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    word-spacing: 1px;
+    color: #989D9C;
+    cursor: pointer;
+    
+}
+
+.menu-link:hover {
+    color: blue;   
+}
+
+.menu-link:active {
+    color: rgba(102, 0 , 170, 0.8);
+}
+
+.menu-button {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    width: 130px;
+    height: 41px;
+    border-radius: 21px;
+    background: rgb(102, 90, 225);
+    border-color: transparent;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: rgb(255, 0, 170);
+}
+
+.menu-button:active {
+    background-color: rgba(102, 0 , 170, 0.8);
+}
+
+.image-site {
+    margin-top: 144px;
+    margin-left: 125px;
+    display: inline-block; /* responsividade mudar para block */
+
+}
+
+.texting {
+    margin-top: 144px;
+    margin-left: 86px;
+    display: inline-block; /* responsividade mudar para block */
+    position: absolute;
+    
+}
+
+h1 {
+    
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121px;
+    letter-spacing: 1px;
+    color:#515151;
+}
+
+h2 {
+    
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    letter-spacing: 1px;
+    color: #515151;
+    margin-bottom: 32px;
+
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #848484;
+
+}
+
+.button-botton {
+    margin-top: 65px;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-color: transparent;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    cursor: pointer;
+
+}
+
+.button-botton:hover {
+    background: linear-gradient(135deg,  rgba(255,142,43,1) 0%,rgba(255,79,81,1) 51%,rgba(255,0,4,1) 100%);
+
+}
+
+.button-botton:active {
+    background:#ADFF00
+
+}
